@@ -1,6 +1,7 @@
 package hw_Lesson30.marathon.shop.dao;
 
-import hw_Lesson31.shop.model.Computer;
+
+import hw_Lesson30.marathon.shop.model.Computer;
 
 public class ShopImpl implements Shop {
     private Computer[] devices; // массив для хранения устройств в магазине

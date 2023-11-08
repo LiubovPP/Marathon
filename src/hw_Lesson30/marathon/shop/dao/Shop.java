@@ -1,9 +1,10 @@
 package hw_Lesson30.marathon.shop.dao;
 
-import hw_Lesson31.shop.model.Computer;
+
+import hw_Lesson30.marathon.shop.model.Computer;
 
 public interface Shop {
-    boolean addDevice(hw_Lesson31.shop.model.Computer computer);
+    boolean addDevice(Computer computer);
 
     Computer removeDevice(int id);
 

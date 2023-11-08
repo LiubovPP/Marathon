@@ -1,14 +1,15 @@
 package hw_Lesson30.marathon.shop.tests;
 
-import hw_Lesson31.shop.dao.Shop;
-import hw_Lesson31.shop.dao.ShopImpl;
-import hw_Lesson31.shop.model.Computer;
-import hw_Lesson31.shop.model.Laptop;
-import hw_Lesson31.shop.model.Smartphone;
+
+import hw_Lesson30.marathon.shop.dao.Shop;
+import hw_Lesson30.marathon.shop.dao.ShopImpl;
+import hw_Lesson30.marathon.shop.model.Computer;
+import hw_Lesson30.marathon.shop.model.Laptop;
+import hw_Lesson30.marathon.shop.model.Smartphone;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 class ShopImplTest {
     Shop shop;
