@@ -1,6 +1,6 @@
 package hw_Lesson30.marathon.supermarket.dao;
 
-import hw_Lesson33.supermarket.model.Product33;
+import hw_Lesson30.marathon.supermarket.model.Product33;
 
 public interface Supermarket {
     boolean addProduct(Product33 product33);

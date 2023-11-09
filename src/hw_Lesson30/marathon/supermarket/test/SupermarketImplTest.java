@@ -1,17 +1,18 @@
 package hw_Lesson30.marathon.supermarket.test;
 
-import hw_Lesson33.supermarket.dao.Supermarket;
-import hw_Lesson33.supermarket.dao.SupermarketImpl;
-import hw_Lesson33.supermarket.model.Food33;
-import hw_Lesson33.supermarket.model.MeatFood33;
-import hw_Lesson33.supermarket.model.MilkFood33;
-import hw_Lesson33.supermarket.model.Product33;
+import hw_Lesson30.marathon.supermarket.dao.Supermarket;
+import hw_Lesson30.marathon.supermarket.dao.SupermarketImpl;
+import hw_Lesson30.marathon.supermarket.model.Food33;
+import hw_Lesson30.marathon.supermarket.model.MeatFood33;
+import hw_Lesson30.marathon.supermarket.model.MilkFood33;
+import hw_Lesson30.marathon.supermarket.model.Product33;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 class SupermarketImplTest implements Comparable <Product33> {
     Supermarket supermarket;
@@ -81,7 +82,8 @@ class SupermarketImplTest implements Comparable <Product33> {
     }
     @Test
     void testCompareByExpDate(){
-        Array.sort(prod, (p1-p2)->p1.getExpDate -p2.getExpDate)
+      //  Array.sort(prod, (p1-p2)->p1.getExpDate -p2.getExpDate);
+
     }
 
 }
